@@ -13,12 +13,8 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
-        Materia(){
-            int id=0;
-            String nombre="cambio";
-        }
+
+        Materia;
     }
 
-    private static void Materia() {
-    }
 }
