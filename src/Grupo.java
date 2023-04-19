@@ -5,7 +5,7 @@ public class Grupo implements Serializable {
 
     private String clave;
     private Materia materia;
-    private catedratico Catedratico;
+    private Catedratico Catedratico;
     private int hora;
     private int salon;
     public Vector<Alumno> alumnos;
@@ -14,7 +14,7 @@ public class Grupo implements Serializable {
     this.alumnos=new Vector<Alumno>();
     }
 
-    public Grupo (String clave, Materia materia, catedratico catedratico, int hora, int salon, Vector<Alumno> alumnos){
+    public Grupo (String clave, Materia materia, Catedratico catedratico, int hora, int salon, Vector<Alumno> alumnos){
         this.clave= clave;
         this.materia= materia;
         this.Catedratico= catedratico;
@@ -44,12 +44,12 @@ public class Grupo implements Serializable {
     this.materia = materia;
     }
 
-    public catedratico getCatedratico() {
+    public Catedratico getCatedratico() {
 
     return Catedratico;
     }
 
-    public void setCatedratico(catedratico catedratico) {
+    public void setCatedratico(Catedratico catedratico) {
 
     Catedratico = catedratico;
     }
@@ -74,4 +74,11 @@ public class Grupo implements Serializable {
     this.salon = salon;
     }
 
+    public Vector<Alumno> getAlumnos() {
+        return alumnos;
+    }
+
+    public void setAlumnos(Vector<Alumno> alumnos) {
+        this.alumnos = alumnos;
+    }
 }

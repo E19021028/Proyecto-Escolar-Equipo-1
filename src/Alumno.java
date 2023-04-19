@@ -1,3 +1,4 @@
+import java.io.Serializable;
 public class Alumno implements Serializable{
     private int numControl;
     private String nombre;
