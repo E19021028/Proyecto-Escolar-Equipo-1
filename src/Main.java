@@ -31,14 +31,11 @@ public class Main {
                 case 5:
                     AltaGrupo();
                     break;
-                case 6:
-                    Imprimir();
-                    break;
                 default:
                     System.out.println("Cerrando");
                     break;
             }
-        }while(opc!=7);
+        }while(opc!=6);
     }
 
     public static int menuPrincipal(){
@@ -48,8 +45,7 @@ public class Main {
         System.out.println("3.-Catedratico");
         System.out.println("4.-Materia");
         System.out.println("5.-Grupo");
-        System.out.println("6.-Imprimir Grupo");
-        System.out.println("7.-Salir");
+        System.out.println("6.-Salir");
         opc=dato.nextInt();
         return opc;
     }
@@ -181,9 +177,10 @@ public class Main {
         }
         grupos.add(new Grupo(clave,materiaG,catedraticoG,hora,salon,alumnosG));
     }
-    public static void Imprimir(){
+    /*public static void Imprimir(){
         System.out.println("==Grupos==");
         for (int i = 0; i < grupos.size(); i++) {
+
             System.out.println("Clave: "+grupos.get(i).getClave());
             System.out.println("Materia: "+grupos.get(i).getMateria().getNombre());
             System.out.println("Catedratico: "+grupos.get(i).getCatedratico().getNombre());
@@ -196,5 +193,5 @@ public class Main {
                 System.out.println("Esoecialidad: "+grupos.get(i).getAlumnos().get(j).getEspecialidad().getNombre());
             }
         }
-    }
+    }*/
 }
