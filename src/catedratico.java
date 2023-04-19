@@ -1,2 +1,3 @@
-public class catedratico {
+public class catedratico{
+
 }

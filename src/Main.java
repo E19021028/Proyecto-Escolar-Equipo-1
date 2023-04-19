@@ -4,7 +4,7 @@ public class Main {
 
     public static ArrayList<Especialidad> especialidades=new ArrayList<Especialidad>();
     public static ArrayList<Alumno> alumnos=new ArrayList<Alumno>();
-    public static ArrayList<Catedratico> catedraticos=new ArrayList<Catedratico>();
+    public static ArrayList<catedratico> catedraticos=new ArrayList<catedratico>();
     public static ArrayList<Materia> materias=new ArrayList<Materia>();
 
 
@@ -26,7 +26,5 @@ public class Main {
     }
     public void AltaGrupo() {
 
-
     }
-
 }

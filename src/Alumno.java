@@ -1,12 +1,12 @@
-public class Alumno {
+public class Alumno implements Serializable{
     private int numControl;
     private String nombre;
     private Especialidad especialidad;
 
     public Alumno(int numControl, String nombre,Especialidad especialidad) {
-        this.numControl=new numControl;
-        this.nombre= new nombre;
-        this.especialidad= new especialidad;
+        this.numControl= numControl;
+        this.nombre= nombre;
+        this.especialidad= especialidad;
     }
     public int getNumControl() {
         return numControl;
