@@ -1,17 +1,30 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.ArrayList;
+
 public class Main {
+
+    public static ArrayList<Especialidad> especialidades=new ArrayList<Especialidad>();
+    public static ArrayList<Alumno> alumnos=new ArrayList<Alumno>();
+    public static ArrayList<Catedratico> catedraticos=new ArrayList<Catedratico>();
+    public static ArrayList<Materia> materias=new ArrayList<Materia>();
+
+
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    }
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+    public void AltaAlumno(){
+
+    }
+    public void AltaEspecialidad(){
+
+    }
+    public void AltaCatedratico(){
+
+    }
+    public void AltaMateria(){
+
+    }
+    public void AltaGrupo() {
+
     }
 }
