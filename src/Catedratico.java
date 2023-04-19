@@ -1,6 +1,6 @@
 public class Catedratico {
 
-    public String RFC;
+    private String RFC;
 
-    public String nombre;
+    private String nombre;
 }
